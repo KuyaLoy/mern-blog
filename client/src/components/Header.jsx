@@ -14,7 +14,7 @@ export default function Header() {
         <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl text-white">
           MERN&apos;s
         </span>
-        Blob
+        Blog
       </Link>
       <form>
         <TextInput
@@ -32,7 +32,7 @@ export default function Header() {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button gradientDuoTone="purpleToBlue" pill>
+          <Button gradientDuoTone="purpleToBlue" pill outline>
             Sign In
           </Button>
         </Link>
